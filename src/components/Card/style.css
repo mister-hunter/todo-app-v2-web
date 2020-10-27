@@ -1,0 +1,13 @@
+.Card {
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #444444;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: fit-content;
+  font-size: 20px;
+  outline: none;
+  transition: box-shadow 150ms;
+  color: #444444;
+  padding: 20px;
+}

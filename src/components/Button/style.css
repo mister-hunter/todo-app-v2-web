@@ -1,0 +1,40 @@
+.Button {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.Button:last-child {
+  margin-bottom: 0;
+}
+
+.Button button {
+  background: #ffffff !important;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 40px;
+  font-size: 20px;
+  outline: none;
+  transition: box-shadow 150ms, top 150ms;
+  color: #444444;
+  width: 100%;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+}
+
+.Button button:hover {
+  background: #ffffff !important;
+  box-shadow: 0px 2px 10px #999999;
+}
+
+.Button button:focus {
+  background: #ffffff !important;
+  box-shadow: 0px 2px 20px #999999;
+}
+
+.Button button:active {
+  background: #ffffff !important;
+  box-shadow: 0px 2px 5px #999999;
+  top: 2.5px;
+}

@@ -1,0 +1,56 @@
+.Modal {
+  position: fixed;
+  left: 50%;
+  z-index: 10;
+}
+
+.Modal-Close {
+  position: relative;
+}
+
+.Modal-X {
+  display: block;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #444444;
+  box-sizing: border-box;
+  color: #444444;
+  cursor: pointer;
+  transition: box-shadow 150ms, background 150ms;
+  user-select: none;
+}
+
+.Modal-X:hover {
+  background: #f00;
+  color: #ffffff;
+  box-shadow: 0px 2px 10px #555;
+}
+
+.Modal-X:focus {
+  background: #f00;
+  color: #ffffff;
+  box-shadow: 0px 2px 20px #555;
+}
+
+.Modal-X:active {
+  background: #f00;
+  color: #ffffff;
+  box-shadow: 0px 2px 5px #555;
+}
+
+.Modal-Backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000000a8;
+}
